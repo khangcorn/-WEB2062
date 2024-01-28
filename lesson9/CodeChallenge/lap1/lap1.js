@@ -75,14 +75,14 @@ const printGoal = function name(...players) {
     console.log(`${players.length} goals was scored `);
 
 };
-    // printGoal('Empapa',
-    // 'Haland',
-    // 'Rolandinho',
-    // 'Haxx',);
+    printGoal('Empapa',
+    'Haland',
+    'Rolandinho',
+    'Haxx',);
     
-    // printGoal('Empapa',
-    // 'Haland',
-    // )
+    printGoal('Empapa',
+    'Haland',
+    )
     printGoal(...game.scored);
 
 // 7 
